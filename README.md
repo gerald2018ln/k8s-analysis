@@ -5,13 +5,7 @@
 
 Analysis pod for debugging: deploy within your project and run `ab`, `dig`, `netstat`, `nslookup`, `telnet`, `traceroute`, `wget`, and so on as well as database clients for MySQL and PostgreSQL.
 
-## Quick start
-Run the analysis container from Docker Hub as follows:
-```
-$ kubectl run k8s-analysis -i --tty --rm --image=gerald1248/k8s-analysis
-```
-
-## For repeated use...
+## Install
 ```
 $ make install
 helm install --name=k8s-analysis .
