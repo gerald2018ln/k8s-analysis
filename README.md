@@ -1,4 +1,4 @@
-# openshift-analysis
+# k8s-analysis
 
 ![Docker Automated](https://img.shields.io/docker/automated/gerald1248/k8s-analysis.svg)
 ![Docker Build](https://img.shields.io/docker/build/gerald1248/k8s-analysis.svg)
