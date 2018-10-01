@@ -7,3 +7,5 @@ install:
 	helm install --name=k8s-analysis .
 delete:
 	helm delete --purge k8s-analysis
+test:
+	./Dockerfile_test

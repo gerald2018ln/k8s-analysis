@@ -36,3 +36,9 @@ $ make delete
 helm delete --purge k8s-analysis
 release "k8s-analysis" deleted
 ```
+
+## Run tests
+Requires docker and shunit2.
+```
+$ make test
+```
